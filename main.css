@@ -1,0 +1,12 @@
+canvas{
+    border: 1px solid ;
+    display: block;
+    margin: auto;
+}
+#next{
+    display: block;
+}
+.param{
+    display: block;
+    width: 150px;
+}

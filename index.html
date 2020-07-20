@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze generator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <button  class="param" id='next'>generate</button>
+    <label>Cell size : <span id="size">10</span> </label>
+     <input class="param" type='range'  max=100 min=5 id="sizeRange" value="10" placeholder="cellsize" step="5">
+    <label>speed (ms) : <span id='speed'>200</span> </label> 
+    <input class="param" type="range"  max=1000 min=1 id="speedRange" placeholder="speed" value="200" step="1">
+    <canvas id='canvas' height="600" width="600">
+
+    </canvas>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
